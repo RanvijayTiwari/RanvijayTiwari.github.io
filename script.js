@@ -20,12 +20,12 @@ menuIcon.onclick = () => {
     let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab)
     let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
 
-    // function NewTab() {
-    //   window.open(
-    //     "",
-    //     "_blank"
-    //   );
-    // }
+    function NewTab() { 
+      window.open(
+        "https://drive.google.com/file/d/18-c68v8L1wKIFcmWtEhhBeIMIjtMNvWU/view?usp=sharing",
+        "_blank"
+      );
+    }
 
 // *=============================== scroll sections active link ==================================
 let sections = document.querySelectorAll('section');
