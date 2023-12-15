@@ -9,10 +9,11 @@ menuIcon.onclick = () => {
 };
 
 // *=============================== github calender ==================================
-    GitHubCalendar(".calendar", "RanvijayTiwari");
+let calendar=document.getElementsByClassName("calendar")
+    GitHubCalendar(calendar, "RanvijayTiwari");
 
     // or enable responsive functionality:
-    GitHubCalendar(".calendar", "RanvijayTiwari", { responsive: true });
+    GitHubCalendar(calendar, "RanvijayTiwari", { responsive: true });
 
 // *=============================== resume open in new tab ==================================
 
@@ -82,3 +83,6 @@ const typed = new Typed('.multiple-text', {
   backdelay: 1000,
   loop: true
 })
+
+
+
