@@ -683,7 +683,13 @@ span {
       width: 80%;
     }
     
-
+    .flex {
+      /* display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    gap: 2rem; */
+    display: flex;
+    } 
 
 
   }
@@ -728,8 +734,14 @@ span {
   border-radius: 800px;
 }
 /* .about {
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
 }  */
+.flex {
+  display: grid;
+grid-template-columns: repeat(1,1fr);
+/* align-items: center;
+gap: 2rem; */
+} 
 .skills h2 {
   margin-bottom: 3rem;
 }
@@ -791,5 +803,7 @@ margin: 20px;
     }
     
     .shape-2 { left: 60px; }
+
+    
 
   }
