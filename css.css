@@ -286,6 +286,7 @@ span {
   .heading {
     text-align: center;
     font-size: 4.5rem;
+    margin-bottom: 30px;
   }
   
   .about-content h3 {
@@ -363,6 +364,8 @@ span {
   
   .project {
     background-color: rgba(9, 188, 188, 0.212);
+   
+    
   }
   .project h2 {
     margin-bottom: 4rem;
@@ -371,7 +374,8 @@ span {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
+    margin-bottom: 50px;
   }
   
   .project-container .project-card {
@@ -436,7 +440,20 @@ span {
   .projectlinks {
     display: flex;
   }
- 
+      /* github   */
+
+    #github-stats{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .git-calendar{
+      margin-bottom: 50px;
+    }
+
+    .stats{
+      margin-top: 50px;
+    }
    
   /*-----------------------------------*\
     #Contact
