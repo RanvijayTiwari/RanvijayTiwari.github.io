@@ -751,7 +751,7 @@ span {
   }
   @media (max-width: 769px) {
     body{width: 900px;
-    border: 2px solid purple;}
+   }
    .home #about{
     align-items: end;
    }
@@ -802,7 +802,7 @@ span {
 
 .about {
   flex-direction: column;
-  border: 1px solid green;
+ 
  
   
 } 
@@ -902,3 +902,4 @@ margin: 20px;
   } 
 
   /* end */
+  /* done */
