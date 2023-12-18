@@ -72,7 +72,10 @@ document.getElementById('codebaseButton').addEventListener('click', function() {
 document.getElementById('liveDemoButton').addEventListener('click', function() {
   window.location.href = 'https://deft-caramel-e9652e.netlify.app/';
 });
-//thundertech
+
+
+
+//2.thundertech
 document.getElementById('codebaseButton2').addEventListener('click', function() {
   window.location.href = 'https://github.com/RanvijayTiwari/synonymous-nose-6503';
 });
@@ -81,7 +84,9 @@ document.getElementById('liveDemoButton2').addEventListener('click', function() 
   window.location.href = 'https://thundertech.vercel.app/';
 });
 
-//quikrbazar
+
+
+//3.quikrbazar
 document.getElementById('githubButton').addEventListener('click', function() {
   window.location.href = 'https://github.com/RanvijayTiwari/Quikr-Bazaar';
 });
@@ -89,7 +94,10 @@ document.getElementById('githubButton').addEventListener('click', function() {
 document.getElementById('netlifyButton').addEventListener('click', function() {
   window.location.href = 'https://dancing-gingersnap-77a4c6.netlify.app/';
 });
-//recipehub
+
+
+
+//4.recipehub
 document.getElementById('codebaseButton3').addEventListener('click', function() {
   window.location.href = 'https://github.com/RanvijayTiwari/RecipeHub-Recipe-Sharing-Platform';
 });
