@@ -106,20 +106,20 @@ body {
   }
   
 .header {
-   position: fixed;
+   position: sticky;
    top: 0;
    left:0;
    width: 100%;
    padding: 2rem 9%;
-   background-color: rgba(153, 24, 167, 0.212);
+   background-color:var(--main-color);
    display: flex;
    justify-content: space-between;
    align-items: center;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
    z-index: 100;
+   
 }
-.header.sticky {
-  border-bottom: .1rem solid rgba(0, 0, 0, .2);
-}
+
 .logo {
   font-size: 2.5rem;
   color: black;
@@ -127,9 +127,11 @@ body {
   cursor: default;
 }
 #nav-menu a {
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: black;
   margin-left: 3rem;
+  font-weight:900;
+  font-style:oblique
 } 
 
 
@@ -137,11 +139,13 @@ body {
   list-style: none;
   display: flex;
  
-  background-color: transparent;
+background-color: var(--main-color);
 }
 #nav-menu a:hover,
 #nav-menu a.active {
-  color:var(--bg-carolina-blue)
+  color:var(--gradient-1);
+  text-decoration: underline;
+  
 }
 #menu-icon {
   font-size: 3.6rem;
@@ -744,7 +748,12 @@ span {
 
 
   }
-  @media (max-width: 768px) {
+  @media (max-width: 769px) {
+    body{width: 900px;
+    border: 2px solid purple;}
+   .home #about{
+    align-items: end;
+   }
     #menu-icon {
       display: block;
     }
@@ -772,9 +781,14 @@ span {
     }
   .home {
     flex-direction: column;
-  }
+
+
+   }
+  
+   
 .home-content h3 {
   font-size: 2.6rem;
+ 
 }
 .home-content h1 {
   font-size: 5rem;
@@ -784,14 +798,19 @@ span {
   margin-top: 4rem;
   border-radius: 800px;
 }
-/* .about {
-  flex-direction: row-reverse;
-}  */
+
+.about {
+  flex-direction: column;
+  border: 1px solid green;
+ 
+  
+} 
+
+
 .flex {
   display: grid;
 grid-template-columns: repeat(1,1fr);
-/* align-items: center;
-gap: 2rem; */
+
 } 
 .skills h2 {
   margin-bottom: 3rem;
@@ -807,6 +826,7 @@ margin-bottom: 3rem;
 }
 
 
+
   }
    /* max 450 */
   @media (max-width: 450px){
@@ -819,8 +839,28 @@ margin-bottom: 3rem;
   }  
   /* max 365 */
   @media (max-width: 365px){
+    #nav-menu a:hover,
+#nav-menu a.active {
+  color:var(--gradient-1);
+  text-decoration:underline;
+
+  
+}
+#nav-menu{
+ /* // background-color: var(--main-color); */
+  
+  z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+#nav-menu a{
+  font-size:x-large;
+  font-weight: 900;
+}
+   
     .home-img img {
+      margin-top: 0px;
       width: 90vw;
+     
       border-radius: 800px;
     }
     .footer {
