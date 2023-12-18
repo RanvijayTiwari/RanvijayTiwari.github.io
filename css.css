@@ -388,7 +388,7 @@ span {
   }
   .project-card img {
     width: 100%;
-    /* transition: .5s ease; */
+  
   }
   /* .project-card:hover img {
     transform: scale(1.1);
@@ -410,8 +410,14 @@ span {
     /* transform: translate(100%);
     transition: .5s ease; */
   }
-  .project-card:hover .project-layer {
+  /* .project-card:hover .project-layer {
     transform: translateY(0);
+  } */
+
+  .project-layer{
+    margin-top: 5px;
+   
+   
   }
   
   .project-layer h4 {
@@ -438,8 +444,56 @@ span {
     color: var(--bg-oxford-blue-2);
   }
   .projectlinks {
+    width: 60%;
     display: flex;
+    justify-content: space-between;
+  
   }
+
+  .project-div{
+    margin-top: 10px;
+  }
+
+
+ 
+  .btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   button:hover {
+    color: rgb(13, 10, 13);
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
       /* github   */
 
     #github-stats{
@@ -701,12 +755,16 @@ span {
     }
     
     .flex {
-      /* display: grid;
+      display: grid;
     grid-template-columns: repeat(1,1fr);
     align-items: center;
-    gap: 2rem; */
-    display: flex;
+    gap: 2rem;
+    
     } 
+    .project-container {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 100px;
+    }
 
 
   }
@@ -736,9 +794,9 @@ span {
       font-size: 2rem;
       margin: 3rem 0;
     }
-  /* .home {
+  .home {
     flex-direction: column;
-  } */
+  }
 .home-content h3 {
   font-size: 2.6rem;
 }
@@ -769,6 +827,7 @@ margin-bottom: 3rem;
 
 .project-container {
   grid-template-columns: repeat(1, 1fr);
+  gap: 100px;
 }
 
 

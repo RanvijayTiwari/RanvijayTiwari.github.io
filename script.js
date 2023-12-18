@@ -60,6 +60,43 @@ navbar.classList.remove('active')
 
 };
 
+
+
+
+// project repo and live demo link
+//1 ritesh
+document.getElementById('codebaseButton').addEventListener('click', function() {
+  window.location.href = 'https://github.com/RanvijayTiwari/silky-toothbrush-7443';
+});
+
+document.getElementById('liveDemoButton').addEventListener('click', function() {
+  window.location.href = 'https://symphonious-torrone-c03bf0.netlify.app/';
+});
+//thundertech
+document.getElementById('codebaseButton2').addEventListener('click', function() {
+  window.location.href = 'https://github.com/RanvijayTiwari/synonymous-nose-6503';
+});
+
+document.getElementById('liveDemoButton2').addEventListener('click', function() {
+  window.location.href = 'https://thundertech.vercel.app/';
+});
+
+//quikrbazar
+document.getElementById('githubButton').addEventListener('click', function() {
+  window.location.href = 'https://github.com/RanvijayTiwari/Quikr-Bazaar';
+});
+
+document.getElementById('netlifyButton').addEventListener('click', function() {
+  window.location.href = 'https://sellbuyer-app.netlify.app/';
+});
+
+document.getElementById('codebaseButton3').addEventListener('click', function() {
+  window.location.href = 'https://github.com/RanvijayTiwari/RecipeHub-Recipe-Sharing-Platform';
+});
+
+document.getElementById('liveDemoButton3').addEventListener('click', function() {
+  window.location.href = 'https://concerned-picture-9849-frontend.vercel.app/';
+});
 // *=============================== scroll reveal ==================================
 
 ScrollReveal({
