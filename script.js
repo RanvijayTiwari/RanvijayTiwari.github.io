@@ -70,7 +70,7 @@ document.getElementById('codebaseButton').addEventListener('click', function() {
 });
 
 document.getElementById('liveDemoButton').addEventListener('click', function() {
-  window.location.href = 'https://symphonious-torrone-c03bf0.netlify.app/';
+  window.location.href = 'https://deft-caramel-e9652e.netlify.app/';
 });
 //thundertech
 document.getElementById('codebaseButton2').addEventListener('click', function() {
@@ -87,9 +87,9 @@ document.getElementById('githubButton').addEventListener('click', function() {
 });
 
 document.getElementById('netlifyButton').addEventListener('click', function() {
-  window.location.href = 'https://sellbuyer-app.netlify.app/';
+  window.location.href = 'https://dancing-gingersnap-77a4c6.netlify.app/';
 });
-
+//recipehub
 document.getElementById('codebaseButton3').addEventListener('click', function() {
   window.location.href = 'https://github.com/RanvijayTiwari/RecipeHub-Recipe-Sharing-Platform';
 });
