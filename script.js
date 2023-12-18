@@ -106,7 +106,7 @@ document.getElementById('liveDemoButton3').addEventListener('click', function() 
   window.location.href = 'https://concerned-picture-9849-frontend.vercel.app/';
 });
 // *=============================== scroll reveal ==================================
-
+// done
 ScrollReveal({
   // reset: true,
   distance: '80px',
