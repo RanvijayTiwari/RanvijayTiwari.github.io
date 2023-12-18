@@ -430,19 +430,7 @@ span {
     font-size: 1.5rem;
     margin: .3rem 0 1rem;
   }
-  .project-layer a {
-    display:inline-block;
-    justify-content: center;
-    align-items: center;
-    width: 5rem;
-    height: 5rem;
-    background: var(--text-color);
-    border-radius: 50%;
-  }
-  .project-layer a i {
-    font-size: 2rem;
-    color: var(--bg-oxford-blue-2);
-  }
+  
   .projectlinks {
     width: 60%;
     display: flex;
@@ -643,12 +631,7 @@ span {
 
 
 
-.project-link {
-  text-align: center;
-  outline: 0;
-  text-decoration: none;
-  cursor: pointer;
-}
+
 
 #contact-linkedin i {
   margin-right: 40px;
@@ -658,14 +641,7 @@ span {
   margin-right: 40px;
 }
 
-.project-link:hover i {
-  color: var(--bg-carolina-blue);
-  transition: color 0.3s ease-in, background-color 0.3s ease-in,
-    border-color 0.3s ease-in;
-  scale: 110%;
-  transform: translate3d(0px, -16px, 0px);
-  transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-}
+
 .contact_me > div > a > i {
   transform: translate3d(0px, -8px, -8px);
 }
